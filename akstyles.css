@@ -1,0 +1,74 @@
+#Talk_to_an_expert {
+  height: 36px;
+  width: 162.05px;
+  /* position: relative; */
+  right: 12%;
+  visibility: hidden;
+  margin-right: 8.5%;
+}
+
+
+.navlist{
+  display: flex;
+  justify-content: center;
+  margin-left: 13%;
+}
+
+.nav-item{
+  padding: 5px;
+  margin: 0 20px 0 20px;
+}
+
+.collapse{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+@media screen and (min-width : 980px) {
+  #Talk_to_an_expert{
+    visibility: visible;
+  }
+}
+
+.navbar-brand{
+  margin-right:0;
+
+}
+.heading{
+  height: 650px;
+  width: 100%;
+  padding-top: 100px;
+  text-align: center;
+  margin-top: 200px;
+}
+#heading-h1{
+  font-size: 3.5rem;
+  padding: 0 1% 1% 1%
+}
+#heading-h2{
+  font-size: 2.5rem;
+  padding: 0.5%
+}
+#heading-h4  {
+  font-size: 1.75rem;
+  padding: 0.35%;
+  padding-bottom: 1.5%
+}
+#learn-more{
+  font-size: 1.25rem;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#navbar-logo{
+  height: 80px;
+  width: 100px;
+  margin-left: 10%;
+  position: relative;
+
+}
+
+.why {
+  height: 700px;
+  width: 100%;
+  align-self: center;
+}
